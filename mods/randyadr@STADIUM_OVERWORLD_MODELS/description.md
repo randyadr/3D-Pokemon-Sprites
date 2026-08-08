@@ -17,7 +17,7 @@ Adds Pokemon Stadium 3D models to Gen1Recomp for identified overworld Pokemon an
 
 Dramatic Shape is a runtime host for the 3D model renderer, but v0.1.56 no longer declares it as a hard index/manifest dependency. This prevents Gen1Recomp from rejecting the add-on before a compatible fork can be capability-detected.
 
-The current official Dramatic Shape build and older/derived builds that preserve the `DRAMALESS_SHAPE` library export are supported. If no compatible voxel host is enabled, this add-on loads dormant instead of crashing the game or being rejected solely for the missing hard dependency.
+The current official Dramatic Shape build and older/derived builds that preserve the `DRAMATIC_SHAPE` library export are supported. If no compatible voxel host is enabled, this add-on loads dormant instead of crashing the game or being rejected solely for the missing hard dependency.
 
 ## Requirements
 

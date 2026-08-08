@@ -1,4 +1,4 @@
-# Release/update setup — v0.1.58
+# Release/update setup — v0.1.56
 
 This package contains the updated Gen1Recomp mod-index entry plus the current installable release asset.
 
@@ -8,7 +8,7 @@ Copy this directory into `bryanthaboi/gen1recomp-mod-index`:
 
     mods/randyadr@STADIUM_OVERWORLD_MODELS/
 
-Important v0.1.58 change: the index `dependencies` array is intentionally empty. Dramatic Shape is capability-detected at runtime so compatible forks are not blocked by the index before the mod can inspect them.
+Important v0.1.56 change: the index `dependencies` array is intentionally empty. Dramatic Shape is capability-detected at runtime so compatible forks are not blocked by the index before the mod can inspect them.
 
 The entry keeps automatic GitHub version checking enabled for:
 
@@ -18,11 +18,11 @@ The entry keeps automatic GitHub version checking enabled for:
 
 In `randyadr/3D-Pokemon-Sprites`, create/publish a GitHub Release with tag:
 
-    v0.1.58
+    v0.1.56
 
 Attach the included installable asset:
 
-    release_asset/STADIUM_OVERWORLD_MODELS-0.1.58.zip
+    release_asset/STADIUM_OVERWORLD_MODELS-0.1.56.zip
 
 The installable ZIP already has the mod files at its archive root.
 
