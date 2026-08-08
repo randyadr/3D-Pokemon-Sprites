@@ -1,0 +1,32 @@
+{
+  "id": "STADIUM_OVERWORLD_MODELS",
+  "title": "Pokemon Stadium Overworld Models",
+  "author": "randyadr",
+  "summary": "Pokemon Stadium 3D models for overworld followers and battles, with locomotion and companion-mod integrations.",
+  "version": "0.1.53",
+  "categories": [
+    "ART",
+    "CONTENT"
+  ],
+  "tags": [
+    "pokemon stadium",
+    "3d models",
+    "followers",
+    "overworld",
+    "battle"
+  ],
+  "repo": "https://github.com/randyadr/3D-Pokemon-Sprites",
+  "github": "randyadr/3D-Pokemon-Sprites",
+  "automatic_version_check": true,
+  "api": 2,
+  "game_version": "0.0.0-dev || >=0.1.30 <2.0.0",
+  "profile": "content",
+  "affects_link": false,
+  "permissions": [
+    "engine_internals"
+  ],
+  "dependencies": [
+    "DRAMATIC_SHAPE"
+  ],
+  "conflicts": []
+}
