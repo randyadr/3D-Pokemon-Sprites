@@ -1,0 +1,27 @@
+{
+  "id": "STADIUM_OVERWORLD_MODELS",
+  "name": "Pokemon Stadium Overworld Models",
+  "version": "0.1.47",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "GRAPHICS",
+  "game_version": "0.0.0-dev || >=0.1.30 <2.0.0",
+  "priority": 110,
+  "dependencies": [
+    "DRAMATIC_SHAPE"
+  ],
+  "optional_dependencies": [
+    "FOLLOWERS_EX",
+    "PokePCFollowers_VoxelMerge",
+    "DRAMATIC_SKY_RIDE"
+  ],
+  "conflicts": [],
+  "permissions": [
+    "engine_internals"
+  ],
+  "affects_link": false,
+  "description": "Pokemon Stadium 3D overworld models and battle effects with Followers EX and Dramatic Sky Ride compatibility.",
+  "options_schema": "options.lua",
+  "github": "randyadr/3D-Pokemon-Sprites"
+}
